@@ -6,10 +6,7 @@
 trigger:
 - main
 
-pool:
-  Name: On-Prem-Sandbox
-  demands:
-  - Agent.Name -equals On-Prem-Agent
+pool: On-Prem-Sandbox
 
 variables:
   buildConfiguration: 'Release'
